@@ -1,0 +1,166 @@
+@import
+url('http://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+	color: #545151;
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+/*Navigation*/
+/*Still working on this...*/
+.tab-nav {
+	background-color: red;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 20px;
+}
+
+.tab-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tab-nav li {
+	float: left;
+}
+
+.tab-nav a {
+	display: block;
+	text-decoration: none;
+	width: 100px;
+}
+
+/*Content*/
+.title {
+	color: #FFFFFF;
+	background-color: #2196F3;
+	padding: 40px 40px 40px 10px;
+}
+
+.stage {
+	color: #545151;
+	background-color: #BBDEFB;
+	padding: 10px;
+}
+
+.worksession {
+	color: #545151;
+	background-color: #E0E0E0;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.card {
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+.card-title {
+	background-color: #787878;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	color: #FFFFFF;
+	padding: 1px;
+	padding-left: 40px;
+}
+
+.card-content {
+	background-color: #F8F8F8;
+	color: #545151;
+	display: flex;
+	padding: 10px;
+}
+
+.icon {
+	padding: 10px;
+}
+
+.content {
+	padding: 10px;
+}
+
+.content-topic-divider {
+	background-color: #F8F8F8;
+	border-color: #545151;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.content-topic {
+	padding: 10px;
+}
+
+.image-center-responsive {
+	display: block;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+/*Responsive video embed idea from
+https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php*/
+.video-center-embed {
+	height: 0;
+	padding-top: 25px;
+	padding-bottom: 56.25%; /* 16:9 */
+	position: relative;
+}
+
+.video-center-embed iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.code {
+	background-color: #eee;
+	font-family: 'Consolas', 'monospace', serif;
+	padding: 10px;
+}
+
+.table {
+	width: 100%;
+}
+
+.table td {
+	padding: 5px;
+}
+
+.table th {
+	background-color: #2196F3;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+.table tr:nth-child(even) {
+	background-color: #E3F2FD;
+}
+
+.table tr:nth-child(odd) {
+	background-color: #BBDEFB;
+}
+
+#plainlink a:link,
+#plainlink a:visited,
+#plainlink a:hover,
+#plainlink a:active {
+	color: #FFFFFF;
+}
